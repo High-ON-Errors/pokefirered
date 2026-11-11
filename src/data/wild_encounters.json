@@ -8312,8 +8312,8 @@
               },
               {
                 "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PIDGEY"
+                "max_level": 7,
+                "species": "SPECIES_DRATINI"
               },
               {
                 "min_level": 4,
