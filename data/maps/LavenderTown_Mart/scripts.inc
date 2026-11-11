@@ -31,6 +31,7 @@ LavenderTown_Mart_Items::
 	.2byte ITEM_REVIVE
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
+	.2byte ITEM_AWAKENING
 	.2byte ITEM_BURN_HEAL
 	.2byte ITEM_ICE_HEAL
 	.2byte ITEM_ESCAPE_ROPE

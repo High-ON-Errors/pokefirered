@@ -183,11 +183,11 @@ SafariZone_Center_EventScript_ItemNugget::
 	end
 
 SafariZone_East_EventScript_ItemMaxPotion::
-	finditem ITEM_MAX_POTION
+	finditem ITEM_HYPER_POTION
 	end
 
 SafariZone_East_EventScript_ItemFullRestore::
-	finditem ITEM_FULL_RESTORE
+	finditem ITEM_FULL_HEAL
 	end
 
 SafariZone_East_EventScript_ItemTM11::
@@ -215,11 +215,11 @@ SafariZone_West_EventScript_ItemGoldTeeth::
 	end
 
 SafariZone_West_EventScript_ItemMaxPotion::
-	finditem ITEM_MAX_POTION
+	finditem ITEM_HYPER_POTION
 	end
 
 SafariZone_West_EventScript_ItemMaxRevive::
-	finditem ITEM_MAX_REVIVE
+	finditem ITEM_REVIVE
 	end
 
 SilphCo_3F_EventScript_ItemHyperPotion::

@@ -117,6 +117,7 @@ TwoIsland_EventScript_ShopInitial::
 	.align 2
 TwoIsland_Items_ShopInitial::
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_SUPER_POTION
 	.2byte ITEM_FRESH_WATER
 	.2byte ITEM_NONE
 	release
@@ -130,8 +131,11 @@ TwoIsland_EventScript_ShopExpanded1::
 
 	.align 2
 TwoIsland_Items_ShopExpanded1::
-	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_REVIVE
+	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_SODA_POP
 	.2byte ITEM_FRESH_WATER
 	.2byte ITEM_NONE
@@ -148,6 +152,10 @@ TwoIsland_EventScript_ShopExpanded2::
 TwoIsland_Items_ShopExpanded2::
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_REVIVE
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_LEMONADE
 	.2byte ITEM_SODA_POP
 	.2byte ITEM_FRESH_WATER
@@ -167,6 +175,12 @@ TwoIsland_Items_ShopExpanded3::
 	.2byte ITEM_ULTRA_BALL
 	.2byte ITEM_REPEAT_BALL
 	.2byte ITEM_TIMER_BALL
+	.2byte ITEM_MAX_POTION
+	.2byte ITEM_MAX_REVIVE
+	.2byte ITEM_REVIVE
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_LEMONADE
 	.2byte ITEM_SODA_POP
 	.2byte ITEM_FRESH_WATER

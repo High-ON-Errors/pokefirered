@@ -233,7 +233,7 @@
       "x": 10,
       "y": 53,
       "elevation": 3,
-      "item": "ITEM_FULL_RESTORE",
+      "item": "ITEM_HYPER_POTION",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_FULL_RESTORE",
       "quantity": 1,
       "underfoot": false
@@ -253,7 +253,7 @@
       "x": 4,
       "y": 125,
       "elevation": 3,
-      "item": "ITEM_MAX_REVIVE",
+      "item": "ITEM_REVIVE",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_REVIVE",
       "quantity": 1,
       "underfoot": false
@@ -263,7 +263,7 @@
       "x": 14,
       "y": 157,
       "elevation": 3,
-      "item": "ITEM_MAX_ELIXIR",
+      "item": "ITEM_ELIXIR",
       "flag": "FLAG_HIDDEN_ITEM_ROUTE17_MAX_ELIXIR",
       "quantity": 1,
       "underfoot": false

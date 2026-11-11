@@ -15,8 +15,27 @@ SaffronCity_Mart_EventScript_Clerk::
 	faceplayer
 	message Text_MayIHelpYou
 	waitmessage
+	goto_if_set FLAG_HIDE_SAFFRON_ROCKETS, SaffronCity_Mart_EventScript_ClerkShopAfterSilph
+	pokemart SaffronCity_Mart_Items_BeforeSilph
+	goto SaffronCity_Mart_EventScript_ClerkShopEnd
+
+SaffronCity_Mart_EventScript_ClerkShopAfterSilph::
 	pokemart SaffronCity_Mart_Items
+
+SaffronCity_Mart_EventScript_ClerkShopEnd::
 	msgbox Text_PleaseComeAgain
+	release
+	end
+
+	.align 2
+SaffronCity_Mart_Items_BeforeSilph::
+	.2byte ITEM_GREAT_BALL
+	.2byte ITEM_SUPER_POTION
+	.2byte ITEM_REVIVE
+	.2byte ITEM_FULL_HEAL
+	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_SUPER_REPEL
+	.2byte ITEM_NONE
 	release
 	end
 
